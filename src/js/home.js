@@ -1,5 +1,5 @@
 export {loadPage}
-import foodyimg from "./foody.jpeg";
+import foodyimg from "/src/images/foody.jpeg";
 
 function loadPage()
 {

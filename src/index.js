@@ -1,7 +1,7 @@
 console.log('hello');
-import {loadPage} from "./home.js"
-import { loadMenu } from "./menu.js";
-import { loadAbout } from "./about.js";
+import {loadPage} from "./js/home.js"
+import { loadMenu } from "./js/menu.js";
+import { loadAbout } from "./js/about.js";
 
 loadPage();
 const tabs=document.querySelector('nav');
