@@ -1,6 +1,7 @@
 console.log('hello');
 import {loadPage} from "./home.js"
 import { loadMenu } from "./menu.js";
+import { loadAbout } from "./about.js";
 
 loadPage();
 const tabs=document.querySelector('nav');
@@ -13,5 +14,9 @@ tabs.addEventListener('click',function(event){
     else if(value==="menu")
     {
         loadMenu();
+    }
+    else if(value==="about")
+    {
+        loadAbout();
     }
 })
